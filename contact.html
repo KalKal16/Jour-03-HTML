@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maquette</title>
+    <link rel="stylesheet" href="Styles/contact.css">
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="nav">
+                <a href="index.html">Home</a>
+                <a href="entreprise.html">Entreprise</a>
+                <a href="realisations.html">Réalisations</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <div class="search-container">
+                <input type="text">
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="contact-form">
+            <h2>Contactez-nous</h2>
+            <form>
+                <div class="formu-group">
+                    <label for="civilite">Civilité :</label>
+                    <select id="civilite" name="civilite">
+                        <option value="monsieur">Monsieur</option>
+                        <option value="madame">Madame</option>
+                        <option value="autres">Autres</option>
+                    </select>
+                </div>
+                <div class="formu-group">
+                    <label for="nom">Nom :</label>
+                    <input type="text" id="nom" name="nom" required>
+                </div>
+                <div class="formu-group">
+                    <label for="prenom">Prénom :</label>
+                    <input type="text" id="prenom" name="prenom" required>
+                </div>
+                <div class="formu-group">
+                    <label for="adresse">Adresse postale :</label>
+                    <input type="text" id="adresse" name="adresse" required>
+                </div>
+                <div class="formu-group">
+                    <input type="checkbox" id="confidentialite" name="confidentialite" required>
+                    <label for="confidentialite">J'accepte la politique de confidentialité de l'entreprise</label>
+                </div>
+                <div class="formu-group">
+                    <button type="submit">Envoyer</button>
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer class="footer">
+    </footer>
+</body>
