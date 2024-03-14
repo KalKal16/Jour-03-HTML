@@ -18,7 +18,7 @@ body {
 }
 
 .navbar a {
-    color: #ffffff;
+    color: #1a1919;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -90,7 +90,7 @@ main {
 }
 p {
     padding-bottom: 10px;
-    font-size: 16px; 
+    font-size: 25px; 
     letter-spacing: 1px;
 }
 
@@ -114,7 +114,7 @@ p {
 
 .service-column p {
     margin-bottom: 20px;
-    font-size: 10px;
+    font-size: 16px;
     letter-spacing: 2px;
 }
 
@@ -142,6 +142,7 @@ p {
     justify-content: space-between; 
     padding-top: 100px;
 }
+
 @media screen and (max-width: 768px) {
     .navbar {
         flex-direction: column;
